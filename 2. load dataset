@@ -1,0 +1,7 @@
+housing = fetch_california_housing()
+
+df = pd.DataFrame(housing.data, columns=housing.feature_names)
+
+df['Price'] = housing.target
+
+print(df.head())
