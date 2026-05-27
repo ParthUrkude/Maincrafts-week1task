@@ -1,0 +1,5 @@
+y_pred = model.predict(X_test)
+
+print("Predictions Completed")
+
+print(y_pred[:5])
