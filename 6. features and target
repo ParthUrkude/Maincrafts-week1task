@@ -1,0 +1,5 @@
+X = df.drop('Price', axis=1)
+
+y = df['Price']
+
+print("Features and Target Created")
