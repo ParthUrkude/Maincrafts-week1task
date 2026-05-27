@@ -1,0 +1,6 @@
+import pickle
+
+with open("house_price_model.pkl", "wb") as file:
+    pickle.dump(model, file)
+
+print("Model Saved Successfully")
