@@ -1,0 +1,10 @@
+plt.figure(figsize=(8,6))
+
+plt.scatter(df['MedInc'], df['Price'])
+
+plt.xlabel("Median Income")
+plt.ylabel("House Price")
+
+plt.title("Median Income vs House Price")
+
+plt.show()
