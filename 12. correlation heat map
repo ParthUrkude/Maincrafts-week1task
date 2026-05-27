@@ -1,0 +1,15 @@
+correlation = df.corr()
+
+plt.figure(figsize=(10,8))
+
+plt.imshow(correlation, cmap='coolwarm')
+
+plt.colorbar()
+
+plt.xticks(range(len(correlation.columns)), correlation.columns, rotation=90)
+
+plt.yticks(range(len(correlation.columns)), correlation.columns)
+
+plt.title("Correlation Heat Map")
+
+plt.show()
