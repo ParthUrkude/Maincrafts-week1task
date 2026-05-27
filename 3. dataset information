@@ -1,0 +1,11 @@
+print("Dataset Shape:")
+print(df.shape)
+
+print("\nDataset Information:")
+print(df.info())
+
+print("\nMissing Values:")
+print(df.isnull().sum())
+
+print("\nStatistical Summary:")
+print(df.describe())
